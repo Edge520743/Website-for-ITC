@@ -90,7 +90,7 @@ a {
 .sub-box1 {
     width: 240px;
     height: 240px;
-    background: url(images/SectionB_Software1.jpg);
+    background-image: url(Images/SectionB_Software1.jpg);
     background-position: left;
     background-size: cover;
     background-blend-mode: multiply;
@@ -109,7 +109,7 @@ a {
 .sub-box2 {
     width: 240px;
     height: 240px;
-    background: url(images/SectionB_Software2.jpg);
+    background-image: url(Images/SectionB_Software2.jpg);
     background-position: center;
     background-blend-mode: multiply;
     background-color: rgba(0,0,0,0.5);
@@ -128,7 +128,7 @@ a {
 .sub-box3 {
     width: 240px;
     height: 240px;
-    background: url(images/SectionA_Header.jpg);
+    background-image: url(Images/SectionA_Header.jpg);
     background-position: center;
     background-blend-mode: multiply;
     background-color: rgba(0,0,0,0.3);
