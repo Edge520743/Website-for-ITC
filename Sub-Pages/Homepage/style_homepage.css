@@ -1,0 +1,291 @@
+* {
+    padding-left: 2%;
+    padding-right: 2%;
+
+} 
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #f3f3f3;
+    color: #111;
+    line-height: 1.6;
+    background-image: linear-gradient(to bottom, rgb(20, 15, 85), rgba(0, 0, 0));
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+nav {
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.6);
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    gap: 5rem;
+    padding: 1rem 3rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    transition: opacity 0.2s;
+}
+nav a:hover {
+    opacity: 0.6;
+
+/* Section 1 */
+}
+.section-1 {
+    background-image: url(Images/Homepage_Ishmael.jpg);
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+    padding: 4rem 3rem;
+    color: white;
+}
+.sec1-overlay {
+    background-color: black; 
+    padding: 4rem 3rem;
+    color: white;
+    
+}
+.section-1 h1 {
+    font-size: 5.5rem;
+    font-weight: 700;
+    margin: 0 0 2.5rem;
+    margin-left: 40px;
+    background-color: transparent;
+    animation: downward 0.8s ease-in-out forwards;
+
+}
+.sec1-container {
+    display: flex;
+    gap: 3rem;
+    align-items: flex-start;
+    padding-left: 3%;
+    background-color: transparent;
+}
+#sec1-text {
+    animation: upward 0.9s ease-in-out forwards;
+}
+.grey-box {
+    background-image: url(Images/Homepage1_Image.jpg);
+    animation: downward 0.9s ease-in-out forwards;
+    background-size: cover;
+    width: 200rem;
+    height: 50vh;
+    border-radius: 24px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    background-color: transparent;
+
+}
+.section-1 h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+/* Section 2 */
+.section-2 {
+    background: #ffffff;
+    padding: 4rem 3rem;
+    
+}
+.section-2 .container {
+    max-width: 113vh;
+    margin: 0 auto;
+}
+.section-2 h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0 0 1.5rem;
+    color: #111;
+    animation: downward both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 100vh;
+
+}
+.sec2-container {
+    display: flex;
+    gap: 2.5rem;
+    align-items: flex-start;
+    
+}
+.text-block {
+    margin-left: -3%;
+    width: 50%;
+    font-size: 1.05rem;
+    color: #444;
+    animation: upward both;
+    animation-timeline: view();
+    animation-range: entry 10% cover 100vh;
+}
+.right-card {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-inner {
+    width: 100%;
+    background: #f5f5f5;
+    border-radius: 18px;
+    padding: 1.2em;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+.green-box {
+    width: 25vw;
+    height: 50vh;
+    background: url(Images/Homepage2_Image.jpg);
+    background-size: cover;
+    border-radius: 16px;
+    margin-bottom: 1rem;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+.card-text {
+    font-size: 0.95rem;
+    color: #555;
+    margin: 0;
+}
+
+/* Section 3 */
+a {
+    text-decoration: none;
+}
+.section-3 {
+    background: #ffffff;
+    text-align: center;
+    padding: 4rem 3rem;
+}
+.section-3 h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    animation: downward both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 100vh;
+}
+.section-3 p{
+    animation: downward both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 100vh;
+}
+.sub-container {
+    background: #ececec;
+    margin-top: 3rem;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    border-radius: 20px;
+}
+.sub-box1 {
+    width: 15vw;
+    height: 25vh;
+    background: url(Images/Homepage3_Hardware.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 1.2rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s;
+}
+.sub-box2 {
+    width: 15vw;
+    height: 25vh;
+    background: url(Images/Homepage4_Software.jpg);
+    border-radius: 24px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 1.2rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s;
+}
+.sub-box1:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.18);
+}
+.sub-box2:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.18);
+}
+
+/* References */
+.References {
+    background-color: rgba(122, 119, 215, 0.6);
+    backdrop-filter: blur(20px);
+    padding: 4rem 3rem;
+    word-wrap: break-word;
+}
+.References {
+li, h2 { color: rgba(255, 255, 255);}
+}
+
+/* Footer */
+footer {
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.6);
+    border-bottom: 1px solid #e5e5e5;
+    gap: 5rem;
+    padding: 1rem 3rem;
+    top: 0;
+    z-index: 10;
+}
+.footer {
+    text-align: center;
+}
+
+
+/* Responsive Design */
+@keyframes downward {
+        0%  {transform: translateY(-100px);
+             opacity: 0%;}
+        100% {transform: translateY(0px);
+            opacity: 100%;}
+    }
+@keyframes upward {
+        0%   {transform: translateY(100px);
+                opacity: 0%;}
+        100% {transform: translateY(0px);
+                opacity: 100%;}
+    }
+@media screen and (max-width: 1300px) {
+    .section-1 h1 {
+        font-size: 6vh;
+    }
+    .middle-card, .card-inner, .green-box {
+        width: 40vw;
+    }
+    .grey-box {
+        width: 50vw;
+        height: 60vh;
+    }
+    .section-1-container, .section-2-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sub-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sub-box1, .sub-box2{
+        width: 30vw;
+        height: 39vh;
+    }
+    .sec2-container, .sec1-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

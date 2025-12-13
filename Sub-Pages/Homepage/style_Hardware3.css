@@ -1,0 +1,553 @@
+* {
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+img {
+    max-width: 95%;
+    height: auto;
+    margin: auto;
+    border-radius: 30px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #f3f3f3;
+    color: #111;
+    line-height: 1.6;
+    background-image: linear-gradient(to bottom, rgba(40, 88, 154, 0.5), rgba(206, 187, 84, 0.5));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.6);
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    gap: 5rem;
+    padding: 1rem 3rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    transition: opacity 0.2s;
+}
+nav a:hover {
+    opacity: 0.6;
+
+/* Section 1 */
+}
+.section-1 {
+    background-image: url(Images/Hardware3/Hardware3_Header.jpeg);
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+    padding: 4rem 3rem;
+    color: white;
+}
+.section-1-overlay {
+    background-color: black; 
+    padding: 4rem 3rem;
+    color: white;
+    
+}
+.section-1 h1 {
+    font-size: 5.5rem;
+    font-weight: 700;
+    margin: 0 0 2.5rem;
+    margin-left: 40px;
+    background-color: transparent;
+    animation: leftward 1s ease-in-out;
+}
+.section-1-container {
+    display: flex;
+    gap: 3rem;
+    align-items: flex-start;
+    padding-left: 3%;
+    background-color: transparent;
+     animation: leftward 1s ease-in-out;
+   
+}
+.animatedsection1 {
+    animation: leftward 0.9s ease-in-out;
+}
+.grey-box {
+    background-image: url(Images/Hardware3/Hardware3_Headerimage.jpg);
+    background-size: cover;
+    width: 200vw;
+    height: 50vh;
+    border-radius: 24px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    background-color: transparent;
+    animation: leftward 1.2s ease-in-out;
+}
+.section-heading h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+/* Section 2 */
+.section-2 {
+    background: #ffffff;
+    padding: 4rem 3rem;
+    
+}
+.section-2 .section-2-main {
+    max-width: 1100px;
+    margin: 0 auto;
+    animation: upward both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 100vh;
+}
+.section-2 h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0 0 1.5rem;
+    color: #111;
+}
+.section-2-container {
+    display: flex;
+    gap: 2.5rem;
+    align-items: flex-start;
+}
+.text-block {
+    width: 100vw;
+    font-size: 1.05rem;
+    color: #444;
+}
+.middle-card {
+    width: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-inner {
+    width: 30vw;
+    background: #f5f5f5;
+    border-radius: 18px;
+    padding: 1.2em;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+    animation: leftward both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 100vh;
+}
+.green-box {
+    width: auto;
+    height: auto;
+    border-radius: 16px;
+    margin-bottom: 1rem;
+}
+.card-text {
+    font-size: 0.95rem;
+    color: #555;
+    margin: 0;
+}
+
+/* Section 3 */
+a {
+    text-decoration: none;
+}
+.section-3 {
+    backdrop-filter: blur(12px);
+    background: url(Images/Hardware3/Hardware3_BodyBG.jpeg);
+    background-size: stretch;
+    background-attachment: fixed;
+    text-align: center;
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,0.5);
+    padding: 4rem 3rem;
+    img {
+        max-width: 50%;
+    }
+    th, td {
+    padding-right: 5vw;
+    padding: 3vh;
+    border: 1px solid white;
+}
+    h2, table {
+        color :white;
+    }
+}
+.section-3 h1 {
+    font-size: 4rem;
+}
+.section-3-table-overflow {
+    overflow-x: auto;
+    background-color: rgba(231, 219, 153, 0.6);
+    backdrop-filter: blur(12px);
+    border-radius: 30px;
+    padding: 30px;
+    animation: downward both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 80vh;
+}
+.section-3 p {
+    text-align: justify;
+}
+.section-3-sub-container {
+    backdrop-filter: blur(100%);
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 20px;
+    
+}
+.section-3-sub-container {
+    width: auto;
+    height: auto;
+}
+.sub-box1 {
+    animation: fadein both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 80vh;
+    border-radius: 16px;
+    width: auto;
+    height: auto;
+    background-image: url(Images/Hardware3/Hardware3_BodyBG2.jpg);
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.3);
+    padding: 4rem 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    h1 {
+        text-align: left;
+    }
+}
+
+.sub-box2 {
+    animation: fadein both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 80vh;
+    border-radius: 16px;
+    width: auto;
+    height: auto;
+    background-image: url(Images/Hardware3/Hardware3_BodyBG2.jpg);
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.3);
+    padding: 4rem 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+     h1 {
+        text-align: right;
+    }
+}
+
+.sub-box3 {
+    animation: fadein both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 80vh;
+    border-radius: 16px;
+    width: auto;
+    height: auto;
+    background-image: url(Images/Hardware3/Hardware3_BodyBG2.jpg);
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.3);
+    padding: 4rem 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    h1 {
+        text-align: left;
+    }
+
+}
+.sub-box4 {
+    animation: fadein both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 80vh;
+    border-radius: 16px;
+    width: auto;
+    height: auto;
+    background-image: url(Images/Hardware3/Hardware3_BodyBG2.jpg);
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.3);
+    padding: 4rem 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    h1 {
+        text-align: right;
+    }
+
+}
+.sub-box5 {
+    animation: fadein both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 80vh;
+    border-radius: 16px;
+    width: auto;
+    height: auto;
+    background-image: url(Images/Hardware3/Hardware3_BodyBG2.jpg);
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.3);
+    padding: 4rem 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    h1 {
+        text-align: left;
+    }
+
+}
+.sub-box6 {
+    animation: fadein both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 80vh;
+    border-radius: 16px;
+    width: auto;
+    height: auto;
+    background-image: url(Images/Hardware3/Hardware3_BodyBG2.jpg);
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.3);
+    padding: 4rem 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    h1 {
+        text-align: right;
+    }
+
+}
+.sub-box1-image {
+    width: 100vw;
+    height: 40vh;
+    border-radius: 30px;
+    object-fit: cover;
+    animation: upward both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 80vh;
+}
+
+
+/* Section 4 */
+.section-4 {
+    background: #ffffff;
+    padding: 4rem 3rem;
+     animation: upward both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 80vh;
+    th, td {
+    padding-right: 5vw;
+    padding: 3vh;
+    border: 1px solid black;
+}
+}
+.section-4 .section-4-main {
+    max-width: auto;
+    margin: auto auto;
+    overflow-x: auto;
+}
+.section-4 h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0 0 1.5rem;
+    color: #111;
+    text-align: center;
+}
+.section4-table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+.section4-othertable {
+    font-size: medium;
+    a:link {
+        color: rgb(246, 202, 56);
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    a:visited{
+        color:  rgb(240, 227, 186);
+    }
+}
+table {
+    font-size: small;
+    border-collapse: collapse;
+    width: auto;
+    justify-content: center;
+    display: flex;
+}
+
+
+/* Section 5 */
+.section-5 {
+    background: #ffffff;
+    padding: 4rem 3rem;
+    
+}
+.section-5 .section-5-main {
+    max-width: 1100px;
+    margin: 0 auto;
+    
+}
+.section-5 h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0 0 1.5rem;
+    color: #111;
+}
+.section-5-container {
+    display: flex;
+    gap: 2.5rem;
+    align-items: flex-start;
+}
+.sec-5-text-block {
+    margin-left: -3%;
+    width: auto;
+    font-size: 1.05rem;
+    color: #444;
+}
+.sec-5-middle-card {
+    width: 500vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec-5-card-inner {
+    width: auto;
+    background: #f5f5f5;
+    border-radius: 18px;
+    padding: 1.2em;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+.sec-5-green-box {
+    width: 96%;
+    height: 300px;
+    background: url(Images/test.jpg);
+    background-size: cover;
+    border-radius: 16px;
+    margin-bottom: 1rem;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+.sec-5-card-text {
+    font-size: 0.95rem;
+    color: #555;
+    margin: 0;
+}
+/* References */
+.References {
+    background-color: rgba(0,0,0,0.3);
+    backdrop-filter: blur();
+    padding: 4rem 3rem;
+     word-wrap: break-word;
+}
+.References {
+li, h2 { color: rgba(255, 255, 255);}
+}
+
+/* Footer */
+footer {
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.6);
+    border-bottom: 1px solid #e5e5e5;
+    gap: 5rem;
+    padding: 1rem 3rem;
+    top: 0;
+    z-index: 10;
+}
+.footer {
+    text-align: center;
+}
+
+@keyframes downward {
+        0%  {transform: translateY(-100px);
+             opacity: 0%;}
+        100% {transform: translateY(0px);
+            opacity: 100%;}
+    }
+@keyframes upward {
+        0%   {transform: translateY(100px);
+                opacity: 0%;}
+        100% {transform: translateY(0px);
+        }
+}
+@keyframes rightward {
+        0%   {transform: translateX(100px);
+                opacity: 0%;}
+        100% {transform: translateX(0px);
+        }
+}
+@keyframes leftward {
+        0%   {transform: translateX(-100px);
+                opacity: 0%;}
+        100% {transform: translateX(0px);
+        }
+}
+@keyframes fadein {
+     0%   {opacity: 0%;}
+        100% {opacity: 100%;
+        }
+    }
+
+
+/* Responsive Design */
+@media screen and (max-width: 1300px) {
+    .section-1 h1 {
+        font-size: 6vh;
+    }
+    .grey-box {
+        width: 50vw;
+        height: 60vh;
+    }
+    .middle-card, .card-inner, .green-box{
+        width: auto;
+    }
+    .section-1-container, .section-2-container{
+        flex-direction: column;
+        align-items: center;
+    }   
+    .text-block {
+        width: auto;
+    }
+    .sub-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sub-container4 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sub-box1, .sub-box3, .sub-box5 {
+        flex-direction: column-reverse;
+        width: auto;
+        height: auto;
+    }
+    .section-3 h1 {
+    font-size: 5vw;
+}
+    .sub-box2, .sub-box4, .sub-box6 {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+    img  {
+        width: auto;
+        height: auto;
+    }
+    .sec3-text-block{
+    width: 50vw;
+    }
+}
