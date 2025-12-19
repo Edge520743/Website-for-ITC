@@ -423,7 +423,7 @@ footer {
         align-items: center;
         gap: 1rem;
     }
-    .sec4-card-inner {
+    .sec4-card-inner1,  .sec4-card-inner2,  .sec4-card-inner3,  .sec4-card-inner4,  .sec4-card-inner5 {
         display: flex;
         flex-direction: row;
         padding-top: 2.5rem;
